@@ -26,8 +26,14 @@ python -m pip install taichi
 Then you can run the code through:
 
 ```shell
+# mass-spring system vs. linear fem (2d, explicit euler)
+# press SPACE to start simulation.
+# press 9/0 to change the param.
 python ./explicit_fem_2d.py
 python ./explicit_mass_spring_2d.py
+
+# linear fem (3d, explicit euler)
+# press ENTER to start simulation.
 python ./explicit_fem_3d.py
 ```
 
